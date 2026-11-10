@@ -3,7 +3,7 @@ output "account" {
 }
 
 output "region" {
-  value       = data.aws_region.current.name
+  value       = data.aws_region.current.region
   description = "Current AWS region"
 }
 
